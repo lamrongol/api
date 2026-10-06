@@ -2,7 +2,8 @@ name: Sync
 
 on:
   schedule:
-    - cron: '38 16 * * *'
+    - cron: '17 21 * * *'  # UTC 21:17（日本時間 6:17）に実行
+    - cron: '38 13 * * *' # UTC 13:38（日本時間 22:38）に実行
   workflow_dispatch:
 
 concurrency:
