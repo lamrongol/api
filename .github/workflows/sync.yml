@@ -109,3 +109,5 @@ jobs:
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
           embeds: |
             - title: 昨日のデータ取得成功
+            - description: @lamrongol
+
