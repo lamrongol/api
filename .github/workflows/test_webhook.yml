@@ -15,4 +15,4 @@ jobs:
           webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
           embeds: |
             - title: Webhook test
-            - description: @lamrongol
+            - description: @lamrongol 通知
