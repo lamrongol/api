@@ -12,6 +12,5 @@ jobs:
       - name: Discord Webhook Notify
         uses: rjstone/discord-webhook-notify@v2.3.1
         with:
-            webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
-            severity: info
-            details: All tests passed! @lamrongol
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
+          content: webhook test success @lamrongol
