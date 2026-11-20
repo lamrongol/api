@@ -2,7 +2,9 @@ name: 'Upstream Sync'
 
 on:
   schedule:
-    - cron:  '24 15 * * *'
+    - cron: '23 4 * * *'
+      timezone: 'Asia/Tokyo'
+
 
   workflow_dispatch:  # click the button on Github repo!
     inputs:
