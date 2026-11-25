@@ -15,6 +15,7 @@ $payload = ['programs' => []];
 //check
 echo Carbon::now();
 echo Carbon::now('Asia/Tokyo');
+echo Carbon::yesterday('Asia/Tokyo');
 flush(); // バッファを強制的に書き出す
 
 $yesterday = Carbon::yesterday('Asia/Tokyo');
