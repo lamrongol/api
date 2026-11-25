@@ -2,7 +2,7 @@ name: Sync
 
 on:
   schedule:
-    - cron: '27 4 * * *'
+    - cron: '27 1 * * *'
       timezone: 'Asia/Tokyo'
   workflow_dispatch:
 
