@@ -12,6 +12,10 @@ $version = $argv[1] ?? 'v1';
 
 $payload = ['programs' => []];
 
+//check
+echo Carbon::now();
+echo Carbon::now('Asia/Tokyo');
+
 $yesterday = Carbon::yesterday('Asia/Tokyo');
 
 if ($version === 'v1') {
