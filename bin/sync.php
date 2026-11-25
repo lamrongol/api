@@ -14,13 +14,13 @@ $payload = ['programs' => []];
 
 //check
 $today = Carbon::today('Asia/Tokyo');
-echo $today;
+echo $today . PHP_EOL;
 $test = $today->subDay();
-echo $test;
+echo $test . PHP_EOL;
 
-echo Carbon::now();
-echo Carbon::now('Asia/Tokyo');
-echo Carbon::yesterday('Asia/Tokyo');
+echo Carbon::now() . PHP_EOL;
+echo Carbon::now('Asia/Tokyo') . PHP_EOL;
+echo Carbon::yesterday('Asia/Tokyo') . PHP_EOL;
 flush(); // バッファを強制的に書き出す
 
 $yesterday = Carbon::yesterday('Asia/Tokyo');
