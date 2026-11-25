@@ -13,6 +13,11 @@ $version = $argv[1] ?? 'v1';
 $payload = ['programs' => []];
 
 //check
+$today = Carbon::today('Asia/Tokyo');
+echo $today;
+$test = $today->subDay();
+echo $test;
+
 echo Carbon::now();
 echo Carbon::now('Asia/Tokyo');
 echo Carbon::yesterday('Asia/Tokyo');
