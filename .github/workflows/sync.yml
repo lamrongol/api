@@ -33,8 +33,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
-          fetch-depth: 0
-          ref: main
+          ref: gh-pages
 
       - name: Install dependencies (without scraper)
         run: |
