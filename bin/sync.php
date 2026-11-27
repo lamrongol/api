@@ -12,16 +12,16 @@ $version = $argv[1] ?? 'v1';
 
 $payload = ['programs' => []];
 
-//check
-$today = Carbon::today('Asia/Tokyo');
-echo $today . PHP_EOL;
-$test = $today->subDay();
-echo $test . PHP_EOL;
+// //check
+// $today = Carbon::today('Asia/Tokyo');
+// echo $today . PHP_EOL;
+// $test = $today->subDay();
+// echo $test . PHP_EOL;
 
-echo Carbon::now() . PHP_EOL;
-echo Carbon::now('Asia/Tokyo') . PHP_EOL;
-echo Carbon::yesterday('Asia/Tokyo') . PHP_EOL;
-flush(); // バッファを強制的に書き出す
+// echo Carbon::now() . PHP_EOL;
+// echo Carbon::now('Asia/Tokyo') . PHP_EOL;
+// echo Carbon::yesterday('Asia/Tokyo') . PHP_EOL;
+// flush(); // バッファを強制的に書き出す
 
 $yesterday = Carbon::yesterday('Asia/Tokyo');
 
